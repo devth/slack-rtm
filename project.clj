@@ -1,4 +1,4 @@
-(defproject devth/slack-rtm "0.1.0-SNAPSHOT"
+(defproject devth/slack-rtm "0.1.0"
   :description "Slack Real Time Messaging API for Clojure"
   :url "https://github.com/devth/slack-rtm"
   :lein-release {:deploy-via :clojars}
