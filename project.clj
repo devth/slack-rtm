@@ -1,6 +1,8 @@
-(defproject slack-rtm "0.1.0-SNAPSHOT"
+(defproject devth/slack-rtm "0.1.0-SNAPSHOT"
   :description "Slack Real Time Messaging API for Clojure"
-  :url "http://github.com/casidiablo/slack-rtm"
+  :url "https://github.com/devth/slack-rtm"
+  :lein-release {:deploy-via :clojars}
+  :deploy-repositories [["releases" :clojars]]
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.6.0"]
